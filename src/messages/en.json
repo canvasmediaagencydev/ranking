@@ -244,7 +244,22 @@
     "total_favorites": "Total favorites",
     "total_pulse": "Total pulse",
     "avg_pulse_photo": "Avg pulse/photo",
-    "rank_master": "Rank Master"
+    "rank_master": "Rank Master",
+    "your_standing": "Your standing",
+    "full_leaderboard": "Full leaderboard",
+    "rank_word": "Rank",
+    "standing_top": "#1 in this category",
+    "standing_keep_master": "Top 3 = keep Rank Master status",
+    "standing_overtake": "{pts} pts to overtake #{rank}",
+    "cat_overall": "Overall · all categories",
+    "goscore_featured": "GoScore · featured \"{title}\"",
+    "current_goscore": "Current GoScore",
+    "total_votes": "Total votes",
+    "votes_first_24h": "Votes in first 24h (full weight)",
+    "voter_mix": "Voter mix",
+    "voter_general": "General",
+    "weights_hidden": "Voter weights and anti-manipulation are intentionally hidden",
+    "no_votes_yet": "No votes yet"
   },
   "PhotoDetail": {
     "explore": "Explore",

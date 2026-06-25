@@ -244,7 +244,22 @@
     "total_favorites": "รายการโปรดรวม",
     "total_pulse": "คะแนนรวม",
     "avg_pulse_photo": "คะแนนเฉลี่ยต่อรูป",
-    "rank_master": "Rank Master"
+    "rank_master": "Rank Master",
+    "your_standing": "อันดับของคุณ",
+    "full_leaderboard": "ดู leaderboard เต็ม",
+    "rank_word": "อันดับ",
+    "standing_top": "อันดับ 1 ในหมวดนี้",
+    "standing_keep_master": "ติด Top 3 = รักษาสิทธิ์ Rank Master",
+    "standing_overtake": "อีก {pts} คะแนน แซงอันดับ #{rank}",
+    "cat_overall": "Overall · ทุกหมวด",
+    "goscore_featured": "GoScore · ภาพเด่น \"{title}\"",
+    "current_goscore": "Current GoScore",
+    "total_votes": "ยอดโหวตรวม",
+    "votes_first_24h": "โหวตใน 24 ชม.แรก (น้ำหนักเต็ม)",
+    "voter_mix": "สัดส่วนผู้โหวต",
+    "voter_general": "ทั่วไป",
+    "weights_hidden": "น้ำหนักผู้โหวตและระบบกันปั่นโหวตถูกซ่อนไว้โดยตั้งใจ",
+    "no_votes_yet": "ยังไม่มีโหวต"
   },
   "PhotoDetail": {
     "explore": "ค้นพบ",
