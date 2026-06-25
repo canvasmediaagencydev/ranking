@@ -346,8 +346,9 @@ export function MobileExplore({ initialCategory = 'All', dbPhotos = [] }: { init
           <MobileSectionHeader num="—" title="Trending photographers" link="All" href="/photographers" />
         </div>
         <div style={{ marginTop: 18, padding: '0 0 32px', overflow: 'hidden' }}>
-          <div style={{ display: 'flex', width: 'max-content', animation: 'trendingSlide 80s linear infinite' }}>
-            {[0, 1].map(group => (
+          {/* ponytail: only loop/duplicate when there are enough cards to scroll; else a single static row so few photographers don't repeat side-by-side */}
+          <div style={{ display: 'flex', width: 'max-content', animation: trending.length > 3 ? 'trendingSlide 80s linear infinite' : 'none' }}>
+            {(trending.length > 3 ? [0, 1] : [0]).map(group => (
               <div key={group} aria-hidden={group === 1} style={{ display: 'flex', gap: 16, paddingLeft: 16, paddingRight: 0 }}>
                 {trending.map(p => (
                   <div
